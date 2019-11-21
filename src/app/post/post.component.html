@@ -1,0 +1,12 @@
+<li class="list-group-item" [ngStyle]= "{'background-color': getColor()}">
+    <h4> {{title}} <i style="float: right">{{ created_at | date: 'short' }}</i></h4>
+    <h6>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Expedita, eligendi? Neque pariatur molestias doloribus.
+        Beatae necessitatibus tempore itaque!
+        Perferendis expedita error quasi modi repellendus, tenetur laudantium. Veniam rerum itaque tempore.
+    </h6>
+    
+    <button class="btn btn-success" (click)="love()">Love it!!!</button>
+    <button class="btn btn-danger" (click)="dontLove()">Don't love it!!!</button>
+</li>
